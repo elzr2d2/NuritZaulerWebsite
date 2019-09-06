@@ -1,0 +1,48 @@
+<div class="container mainHeaders" id="contactus">
+    צור קשר
+</div>
+<div class="container text-right">
+    <br><br><br>
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="container text-right font-weight-bold">
+                כתובת: פנקס 9, קריית אונו <br>
+                טלפון: <a href="tel:123-456-7890">03-6354533</a><br>
+                נייד: <a href="tel:123-456-7890"></a>054-7691789<br>
+                <br>
+                <div style="width: 100%"><iframe width="100%" height="600"
+                        src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=9%20Pinkas%2C%20Qiriyat%20Ono+(Nurit%20Zauler)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                            href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-8 mx-auto">
+                <label class="font-weight-bold">
+                    פנו אליי
+                    <br>
+                </label>
+
+                <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+                    <div>
+                        <input type="text" class="form-design" id="fullName" placeholder="שם מלא" name="fullName"
+                            required [(ngModel)]="fullDetails.fullName">
+                        <input type="email" class="form-design" id="email" placeholder="אימייל" name="email" required
+                            [(ngModel)]="fullDetails.email">
+                        <input type="number" class="form-design" id="phoneNumber" placeholder="טלפון" name="phoneNumber"
+                            required [(ngModel)]="fullDetails.phoneNumber">
+                        <input type="text" class="form-design" id="messegeSubject" placeholder="נושא" name="subject"
+                            required [(ngModel)]="fullDetails.subject">
+                        <textarea class="form-design" id="messege" placeholder="מלא פנייה" name="messege" required
+                            [(ngModel)]="fullDetails.messege" rows="4"></textarea>
+                        <button class="form-design btn-design font-weight-bold text-white">שלח</button>
+                    </div>
+                </form>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>

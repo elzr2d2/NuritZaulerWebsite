@@ -1,0 +1,23 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-xl navbar-light bg-white border-bottom fixed-top">
+    <a class="navbar-brand bg-white" href="#home" >
+      <img src="../assets/images/logo-nur.png" alt="company logo"width="80px">
+        <h3 style="color:rgba(0, 0, 128, 0.774); display: inline-block;"> נורית זאולר אדריכלות נוף ותכנון השקייה בע"מ</h3>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
+          <a [ngClass]="{active:aboutActive}" class="nav-link bg-white scroll" href="#aboutus">אודותיי<span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item bg-white ">
+          <a [ngClass]="{active:contactActive}" class="nav-link scroll" href="#contactus">צור קשר</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>

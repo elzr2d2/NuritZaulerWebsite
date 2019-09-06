@@ -1,0 +1,25 @@
+*{
+    font-family: 'Assistant', sans-serif;
+    
+}
+.bg-section-one{
+    background-image: url('../../assets/images/japanesegarden-holon.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-section-one {
+        
+        background-image: none;
+    }
+
+    .smallScreen{
+        background-color: rgba(3, 1, 131, 0.836);
+        
+    }
+}
+
+

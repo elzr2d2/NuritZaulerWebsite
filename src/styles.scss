@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+*{
+   color:rgba(0, 0, 128, 0.774);
+   direction: rtl;
+   font-family: 'Secular One', sans-serif;
+   scroll-behavior: smooth;
+}
+a{
+   color:rgba(0, 0, 128, 0.774);
+}
+.bigHeader{
+   font-size: 75px;
+   color: white;
+   font-style: bold;
+   font-family: 'Assistant', sans-serif;
+  
+}
+.mainHeaders{
+   font-size: 50px;
+   color:rgba(0, 0, 128, 0.774);
+   font-style: bold;
+   font-family: 'Assistant', sans-serif;
+   height: 200px;
+   width: 100%;
+   text-align: center;
+   line-height: 200px;
+   height: 200px;
+}
